@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="./normilize.css">
+  <link rel="shortcut icon" href="./favicon.png" type="image/png">
+  <title>Virtual-piano</title>
+</head>
+<body>
+  <header class="header">
+    <h1 class="deepshadow">Virtual piano</h1>
+  </header>
+  <main class="main background-gradient">
+    <div class="container">
+      <div class="fullscreen">
+        <button class="fullscreen-btn"></button>
+      </div>
+      <div class="piano">
+        <div class="white-keys">
+          <div class="piano__white-key" data-note="c" data-letter="D"></div>
+          <div class="piano__white-key" data-note="d" data-letter="F"></div>
+          <div class="piano__white-key" data-note="e" data-letter="G"></div>
+          <div class="piano__white-key" data-note="f" data-letter="H"></div>
+          <div class="piano__white-key" data-note="g" data-letter="J"></div>
+          <div class="piano__white-key" data-note="a" data-letter="K"></div>
+          <div class="piano__white-key" data-note="b" data-letter="L"></div>
+        </div>
+        <div class="black-keys">
+          <div class="piano__black-key" data-note="c♯" data-letter="R"></div>
+          <div class="piano__black-key" data-note="d♯" data-letter="T"></div>
+          <div class="piano__black-key visually-hidden"></div>
+          <div class="piano__black-key" data-note="f♯" data-letter="U"></div>
+          <div class="piano__black-key" data-note="g♯" data-letter="I"></div>
+          <div class="piano__black-key" data-note="a♯" data-letter="O"></div>
+        </div>
+      </div>
+      <div class="piano-settings">
+        <div class="piano__display-mod">
+          <button type="button" data-mod="note" class="btn__display-mod btn__display-mod_active">notes 𝄞</button>
+          <button type="button" data-mod="letter" class="btn__display-mod ">letters</button>
+        </div>
+        <button type="button" data-hotkey="1" class="btn-settings btn-settings_active" data-instrument="piano">piano</button>
+        <button type="button" data-hotkey="2" class="btn-settings" data-instrument="grand_piano">grand piano</button>
+        <button type="button" data-hotkey="4" class="btn-settings" data-instrument="synthesizer">synthesizer</button>
+        <button type="button" data-hotkey="5" class="btn-settings" data-instrument="organ">organ</button>
+        <button type="button" data-hotkey="6" class="btn-settings" data-instrument="ogun">ogun</button>
+        <button type="button" data-hotkey="7" class="btn-settings" data-instrument="bass">bass</button>
+        <button type="button" data-hotkey="8" class="btn-settings" data-instrument="genetic_saw_bass">genetic saw bass</button>
+        <button type="button" data-hotkey="9" class="btn-settings" data-instrument="tibetan_gong">tibetan gong</button>
+        <button type="button" data-hotkey="10" class="btn-settings" data-instrument="chainsaw_simphony">chainsaw simphony</button>
+        <button type="button" data-hotkey="11" class="btn-settings" data-instrument="chase_scene">chase scene</button>
+        <button type="button" data-hotkey="12" class="btn-settings" data-instrument="wierd_voices">wierd voices</button>
+        <button type="button" data-hotkey="13" class="btn-settings" data-instrument="jupiter">jupiter</button>
+      </div>
+    </div>
+  </main>  
+  <script src="./index.js"></script>
+</body>
+</html>
