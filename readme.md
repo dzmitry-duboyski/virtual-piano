@@ -1,6 +1,6 @@
 
 
-### [VIRTUAL PIANO](https://dzmitry-duboyski-virtual-piano.netlify.app)
+# [VIRTUAL PIANO](https://dzmitry-duboyski-virtual-piano.netlify.app)
 
 The [virtual piano](https://dzmitry-duboyski-virtual-piano.netlify.app) app, is an emulation of a piano, with the ability to change musical instruments. The application allows you to play the virtual piano using both the mouse and the keyboard.  
 
