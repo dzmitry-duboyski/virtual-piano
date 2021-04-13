@@ -24,4 +24,6 @@ The [virtual piano](https://dzmitry-duboyski-virtual-piano.netlify.app) app, is 
 
 
    - Use your keyboard to hit the piano keys. For pressing, use the following keyboard buttons 'd' 'r' 'f' 't' 'g' 'h' 'u' 'j' 'i' 'k' 'o' 'l'.
-3. To change a musical instrument, select your favorite instrument at the bottom of the screen, and click on its name.
+  ![screenshot](./assets/readme.md/keyboard_press.gif)
+     
+3. To change a musical instrument, select your favorite instrument at the bottom of the screen, and click on its name.g
